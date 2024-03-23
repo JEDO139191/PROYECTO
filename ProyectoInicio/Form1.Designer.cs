@@ -114,7 +114,7 @@
             btnlogin.Location = new Point(309, 211);
             btnlogin.Name = "btnlogin";
             btnlogin.Size = new Size(399, 29);
-            btnlogin.TabIndex = 4;
+            btnlogin.TabIndex = 3;
             btnlogin.Text = "ACCEDER";
             btnlogin.UseVisualStyleBackColor = false;
             // 
@@ -127,7 +127,7 @@
             linkpass.Location = new Point(390, 256);
             linkpass.Name = "linkpass";
             linkpass.Size = new Size(222, 20);
-            linkpass.TabIndex = 5;
+            linkpass.TabIndex = 0;
             linkpass.TabStop = true;
             linkpass.Text = "¿Ha olvidado la contraseña?";
             // 
@@ -141,6 +141,7 @@
             btncerrar.SizeMode = PictureBoxSizeMode.Zoom;
             btncerrar.TabIndex = 6;
             btncerrar.TabStop = false;
+            btncerrar.Click += btncerrar_Click;
             // 
             // btnminimizar
             // 
@@ -152,6 +153,7 @@
             btnminimizar.SizeMode = PictureBoxSizeMode.Zoom;
             btnminimizar.TabIndex = 7;
             btnminimizar.TabStop = false;
+            btnminimizar.Click += btnminimizar_Click;
             // 
             // Form1
             // 

@@ -1,3 +1,5 @@
+
+
 namespace ProyectoInicio
 {
     public partial class Form1 : Form
@@ -7,6 +9,7 @@ namespace ProyectoInicio
             InitializeComponent();
         }
 
+        
         private void txtuser_Enter(object sender, EventArgs e)
         {
             if (txtuser.Text == "Usuario")
@@ -43,9 +46,19 @@ namespace ProyectoInicio
             {
                 txtpass.Text = "Contraseña";
                 txtpass.ForeColor = Color.DimGray;
-                
+                txtpass.UseSystemPasswordChar = false;
 
             }
+        }
+
+        private void btncerrar_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btnminimizar_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
         }
     }
 }
