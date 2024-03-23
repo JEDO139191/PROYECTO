@@ -30,18 +30,18 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             panel1 = new Panel();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            label1 = new Label();
-            button1 = new Button();
-            linkLabel1 = new LinkLabel();
-            pictureBox1 = new PictureBox();
-            pictureBox2 = new PictureBox();
             pictureBox3 = new PictureBox();
+            txtuser = new TextBox();
+            txtpass = new TextBox();
+            label1 = new Label();
+            btnlogin = new Button();
+            linkpass = new LinkLabel();
+            btncerrar = new PictureBox();
+            btnminimizar = new PictureBox();
             panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)btncerrar).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)btnminimizar).BeginInit();
             SuspendLayout();
             // 
             // panel1
@@ -54,29 +54,43 @@
             panel1.Size = new Size(250, 330);
             panel1.TabIndex = 0;
             // 
-            // textBox1
+            // pictureBox3
             // 
-            textBox1.BackColor = Color.FromArgb(15, 15, 15);
-            textBox1.BorderStyle = BorderStyle.None;
-            textBox1.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox1.ForeColor = Color.Silver;
-            textBox1.Location = new Point(309, 90);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(399, 25);
-            textBox1.TabIndex = 1;
-            textBox1.Text = "Usuario";
+            pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
+            pictureBox3.Location = new Point(-2, 7);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(264, 295);
+            pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox3.TabIndex = 0;
+            pictureBox3.TabStop = false;
             // 
-            // textBox2
+            // txtuser
             // 
-            textBox2.BackColor = Color.FromArgb(15, 15, 15);
-            textBox2.BorderStyle = BorderStyle.None;
-            textBox2.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox2.ForeColor = Color.Silver;
-            textBox2.Location = new Point(309, 158);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(399, 25);
-            textBox2.TabIndex = 2;
-            textBox2.Text = "Usuario";
+            txtuser.BackColor = Color.FromArgb(15, 15, 15);
+            txtuser.BorderStyle = BorderStyle.None;
+            txtuser.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txtuser.ForeColor = Color.Silver;
+            txtuser.Location = new Point(309, 90);
+            txtuser.Name = "txtuser";
+            txtuser.Size = new Size(399, 25);
+            txtuser.TabIndex = 1;
+            txtuser.Text = "Usuario";
+            txtuser.Enter += txtuser_Enter;
+            txtuser.Leave += txtuser_Leave;
+            // 
+            // txtpass
+            // 
+            txtpass.BackColor = Color.FromArgb(15, 15, 15);
+            txtpass.BorderStyle = BorderStyle.None;
+            txtpass.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txtpass.ForeColor = Color.Silver;
+            txtpass.Location = new Point(309, 158);
+            txtpass.Name = "txtpass";
+            txtpass.Size = new Size(399, 25);
+            txtpass.TabIndex = 2;
+            txtpass.Text = "Contraseña";
+            txtpass.Enter += txtpass_Enter;
+            txtpass.Leave += txtpass_Leave;
             // 
             // label1
             // 
@@ -89,65 +103,55 @@
             label1.TabIndex = 3;
             label1.Text = "SAIE LOGIN";
             // 
-            // button1
+            // btnlogin
             // 
-            button1.BackColor = Color.FromArgb(40, 40, 40);
-            button1.FlatAppearance.BorderSize = 0;
-            button1.FlatAppearance.MouseDownBackColor = Color.FromArgb(28, 28, 28);
-            button1.FlatAppearance.MouseOverBackColor = Color.FromArgb(64, 64, 64);
-            button1.FlatStyle = FlatStyle.Flat;
-            button1.ForeColor = Color.LightGray;
-            button1.Location = new Point(309, 211);
-            button1.Name = "button1";
-            button1.Size = new Size(399, 29);
-            button1.TabIndex = 4;
-            button1.Text = "ACCEDER";
-            button1.UseVisualStyleBackColor = false;
+            btnlogin.BackColor = Color.FromArgb(40, 40, 40);
+            btnlogin.FlatAppearance.BorderSize = 0;
+            btnlogin.FlatAppearance.MouseDownBackColor = Color.FromArgb(28, 28, 28);
+            btnlogin.FlatAppearance.MouseOverBackColor = Color.FromArgb(64, 64, 64);
+            btnlogin.FlatStyle = FlatStyle.Flat;
+            btnlogin.ForeColor = Color.LightGray;
+            btnlogin.Location = new Point(309, 211);
+            btnlogin.Name = "btnlogin";
+            btnlogin.Size = new Size(399, 29);
+            btnlogin.TabIndex = 4;
+            btnlogin.Text = "ACCEDER";
+            btnlogin.UseVisualStyleBackColor = false;
             // 
-            // linkLabel1
+            // linkpass
             // 
-            linkLabel1.ActiveLinkColor = Color.FromArgb(0, 122, 204);
-            linkLabel1.AutoSize = true;
-            linkLabel1.Font = new Font("Century Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            linkLabel1.LinkColor = Color.LightGray;
-            linkLabel1.Location = new Point(390, 256);
-            linkLabel1.Name = "linkLabel1";
-            linkLabel1.Size = new Size(222, 20);
-            linkLabel1.TabIndex = 5;
-            linkLabel1.TabStop = true;
-            linkLabel1.Text = "¿Ha olvidado la contraseña?";
+            linkpass.ActiveLinkColor = Color.FromArgb(0, 122, 204);
+            linkpass.AutoSize = true;
+            linkpass.Font = new Font("Century Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            linkpass.LinkColor = Color.LightGray;
+            linkpass.Location = new Point(390, 256);
+            linkpass.Name = "linkpass";
+            linkpass.Size = new Size(222, 20);
+            linkpass.TabIndex = 5;
+            linkpass.TabStop = true;
+            linkpass.Text = "¿Ha olvidado la contraseña?";
             // 
-            // pictureBox1
+            // btncerrar
             // 
-            pictureBox1.BackColor = Color.DimGray;
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(754, -1);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(25, 25);
-            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox1.TabIndex = 6;
-            pictureBox1.TabStop = false;
+            btncerrar.BackColor = Color.DimGray;
+            btncerrar.Image = (Image)resources.GetObject("btncerrar.Image");
+            btncerrar.Location = new Point(754, -1);
+            btncerrar.Name = "btncerrar";
+            btncerrar.Size = new Size(25, 25);
+            btncerrar.SizeMode = PictureBoxSizeMode.Zoom;
+            btncerrar.TabIndex = 6;
+            btncerrar.TabStop = false;
             // 
-            // pictureBox2
+            // btnminimizar
             // 
-            pictureBox2.BackColor = Color.DimGray;
-            pictureBox2.Image = Properties.Resources.windowminimize_104316;
-            pictureBox2.Location = new Point(729, -1);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(25, 25);
-            pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox2.TabIndex = 7;
-            pictureBox2.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
-            pictureBox3.Location = new Point(-2, 7);
-            pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(264, 295);
-            pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox3.TabIndex = 0;
-            pictureBox3.TabStop = false;
+            btnminimizar.BackColor = Color.DimGray;
+            btnminimizar.Image = Properties.Resources.windowminimize_104316;
+            btnminimizar.Location = new Point(729, -1);
+            btnminimizar.Name = "btnminimizar";
+            btnminimizar.Size = new Size(25, 25);
+            btnminimizar.SizeMode = PictureBoxSizeMode.Zoom;
+            btnminimizar.TabIndex = 7;
+            btnminimizar.TabStop = false;
             // 
             // Form1
             // 
@@ -155,13 +159,13 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Black;
             ClientSize = new Size(780, 330);
-            Controls.Add(pictureBox2);
-            Controls.Add(pictureBox1);
-            Controls.Add(linkLabel1);
-            Controls.Add(button1);
+            Controls.Add(btnminimizar);
+            Controls.Add(btncerrar);
+            Controls.Add(linkpass);
+            Controls.Add(btnlogin);
             Controls.Add(label1);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(txtpass);
+            Controls.Add(txtuser);
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.None;
             Name = "Form1";
@@ -169,9 +173,9 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
             panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)btncerrar).EndInit();
+            ((System.ComponentModel.ISupportInitialize)btnminimizar).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -179,13 +183,13 @@
         #endregion
 
         private Panel panel1;
-        private TextBox textBox1;
-        private TextBox textBox2;
+        private TextBox txtuser;
+        private TextBox txtpass;
         private Label label1;
-        private Button button1;
-        private LinkLabel linkLabel1;
-        private PictureBox pictureBox1;
-        private PictureBox pictureBox2;
+        private Button btnlogin;
+        private LinkLabel linkpass;
+        private PictureBox btncerrar;
+        private PictureBox btnminimizar;
         private PictureBox pictureBox3;
     }
 }

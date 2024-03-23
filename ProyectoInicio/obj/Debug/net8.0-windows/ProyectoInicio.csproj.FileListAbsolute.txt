@@ -14,3 +14,5 @@ C:\Users\JONATHAN\Desktop\PROYECTO PROGRAMACION I\SAIE\ProyectoInicio\obj\Debug\
 C:\Users\JONATHAN\Desktop\PROYECTO PROGRAMACION I\SAIE\ProyectoInicio\obj\Debug\net8.0-windows\ProyectoInicio.pdb
 C:\Users\JONATHAN\Desktop\PROYECTO PROGRAMACION I\SAIE\ProyectoInicio\obj\Debug\net8.0-windows\ProyectoInicio.genruntimeconfig.cache
 C:\Users\JONATHAN\Desktop\PROYECTO PROGRAMACION I\SAIE\ProyectoInicio\obj\Debug\net8.0-windows\ref\ProyectoInicio.dll
+C:\Users\JONATHAN\Desktop\PROYECTO PROGRAMACION I\SAIE\ProyectoInicio\obj\Debug\net8.0-windows\ProyectoInicio.Properties.Resources.resources
+C:\Users\JONATHAN\Desktop\PROYECTO PROGRAMACION I\SAIE\ProyectoInicio\obj\Debug\net8.0-windows\ProyectoInicio.sourcelink.json
