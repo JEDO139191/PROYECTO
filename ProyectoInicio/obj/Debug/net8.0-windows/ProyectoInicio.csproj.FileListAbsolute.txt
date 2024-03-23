@@ -1,0 +1,16 @@
+C:\Users\JONATHAN\Desktop\PROYECTO PROGRAMACION I\SAIE\ProyectoInicio\bin\Debug\net8.0-windows\ProyectoInicio.exe
+C:\Users\JONATHAN\Desktop\PROYECTO PROGRAMACION I\SAIE\ProyectoInicio\bin\Debug\net8.0-windows\ProyectoInicio.deps.json
+C:\Users\JONATHAN\Desktop\PROYECTO PROGRAMACION I\SAIE\ProyectoInicio\bin\Debug\net8.0-windows\ProyectoInicio.runtimeconfig.json
+C:\Users\JONATHAN\Desktop\PROYECTO PROGRAMACION I\SAIE\ProyectoInicio\bin\Debug\net8.0-windows\ProyectoInicio.dll
+C:\Users\JONATHAN\Desktop\PROYECTO PROGRAMACION I\SAIE\ProyectoInicio\bin\Debug\net8.0-windows\ProyectoInicio.pdb
+C:\Users\JONATHAN\Desktop\PROYECTO PROGRAMACION I\SAIE\ProyectoInicio\obj\Debug\net8.0-windows\ProyectoInicio.Form1.resources
+C:\Users\JONATHAN\Desktop\PROYECTO PROGRAMACION I\SAIE\ProyectoInicio\obj\Debug\net8.0-windows\ProyectoInicio.csproj.GenerateResource.cache
+C:\Users\JONATHAN\Desktop\PROYECTO PROGRAMACION I\SAIE\ProyectoInicio\obj\Debug\net8.0-windows\ProyectoInicio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JONATHAN\Desktop\PROYECTO PROGRAMACION I\SAIE\ProyectoInicio\obj\Debug\net8.0-windows\ProyectoInicio.AssemblyInfoInputs.cache
+C:\Users\JONATHAN\Desktop\PROYECTO PROGRAMACION I\SAIE\ProyectoInicio\obj\Debug\net8.0-windows\ProyectoInicio.AssemblyInfo.cs
+C:\Users\JONATHAN\Desktop\PROYECTO PROGRAMACION I\SAIE\ProyectoInicio\obj\Debug\net8.0-windows\ProyectoInicio.csproj.CoreCompileInputs.cache
+C:\Users\JONATHAN\Desktop\PROYECTO PROGRAMACION I\SAIE\ProyectoInicio\obj\Debug\net8.0-windows\ProyectoInicio.dll
+C:\Users\JONATHAN\Desktop\PROYECTO PROGRAMACION I\SAIE\ProyectoInicio\obj\Debug\net8.0-windows\refint\ProyectoInicio.dll
+C:\Users\JONATHAN\Desktop\PROYECTO PROGRAMACION I\SAIE\ProyectoInicio\obj\Debug\net8.0-windows\ProyectoInicio.pdb
+C:\Users\JONATHAN\Desktop\PROYECTO PROGRAMACION I\SAIE\ProyectoInicio\obj\Debug\net8.0-windows\ProyectoInicio.genruntimeconfig.cache
+C:\Users\JONATHAN\Desktop\PROYECTO PROGRAMACION I\SAIE\ProyectoInicio\obj\Debug\net8.0-windows\ref\ProyectoInicio.dll
