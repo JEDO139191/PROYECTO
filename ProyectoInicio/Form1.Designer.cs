@@ -46,7 +46,7 @@
             // 
             // panel1
             // 
-            panel1.BackColor = SystemColors.Highlight;
+            panel1.BackColor = SystemColors.ActiveCaptionText;
             panel1.Controls.Add(pictureBox3);
             panel1.Dock = DockStyle.Left;
             panel1.Location = new Point(0, 0);
